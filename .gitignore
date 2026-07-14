@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.env
+token.json
+.pytest_cache/
+.claude/
+.ruff_cache/
+.vscode/
+
