@@ -17,8 +17,8 @@ from common.exceptions import AuthenticationError
 from common.time_utils import is_expired
 
 # ========= 設定 =========
-CLIENT_ID = os.environ.get("CLIENT_ID")
-CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
+CLIENT_ID = os.environ.get("X_CLIENT_ID")
+CLIENT_SECRET = os.environ.get("X_CLIENT_SECRET")
 REDIRECT_URI = "http://127.0.0.1:8000/callback"
 SCOPES = "tweet.read tweet.write users.read offline.access"
 # offline.access を入れるとリフレッシュトークンも取れる
